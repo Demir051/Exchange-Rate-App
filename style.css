@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Outfit:wght@300&family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+#container {
+    height: 300px;
+    width: 700px;
+    background-color: #5CDB95;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#h1 {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin: 20px 0px;
+    color: #EDF5E1;
+    font-weight: bold;
+}
+
+#exchange-rate-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+#input-value{
+    width: 20%;
+    height: 40%;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #379683;
+    color: #EDF5E1 ;
+    border: none;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#first-rate {
+    width: 10%;
+    height: 40%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #379683;
+    color: #EDF5E1 ;
+    font-weight: bold;
+    text-align: center ;
+}
+
+#first-rate option {
+    background-color: #EDF5E1;
+    color: #379683;
+}
+
+#form > p {
+    width: 5%;
+    height: 40%;
+    text-align: center;
+    margin: 0px 5px;
+    font-weight: bold;
+}
+
+#second-rate {
+    margin-right: 10px;
+    width: 10%;
+    height: 40%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #379683;
+    color: #EDF5E1 ;
+    font-weight: bold;
+    text-align: center;
+}
+
+#second-rate option {
+    background-color: #EDF5E1;
+    color: #379683;
+}
+
+#conclusion {
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border-radius: 5px;
+    background-color: #379683;
+    color: #EDF5E1 ;
+    border: none;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#calculation-button {
+    width: 15%;
+    height: 8%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #EDF5E1;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(60, 60, 60);
+}
