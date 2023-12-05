@@ -65,7 +65,6 @@ function calculation(e) {
 
             let inputData = Number(inputValue.value);
             let conclusionValue = (inputData * ((value.data[SecondRateValue]).toFixed(2))).toFixed(2);
-            console.log(conclusionValue);
             conclusionP.innerText = conclusionValue;
 
         })

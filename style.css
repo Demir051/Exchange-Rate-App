@@ -1,8 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Outfit:wght@300&family=Permanent+Marker&family=Roboto:wght@300&display=swap');
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Mukta', sans-serif;
@@ -11,11 +10,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  
+    height: 100vh;
 }
 
 #container {
@@ -54,7 +53,7 @@ body{
     height: 20%;
 }
 
-#input-value{
+#input-value {
     width: 20%;
     height: 40%;
     margin-right: 10px;
@@ -62,7 +61,7 @@ body{
     border-radius: 5px;
     text-align: center;
     background-color: #379683;
-    color: #EDF5E1 ;
+    color: #EDF5E1;
     border: none;
     font-weight: bold;
     padding: 3px;
@@ -75,9 +74,9 @@ body{
     border: none;
     outline: none;
     background-color: #379683;
-    color: #EDF5E1 ;
+    color: #EDF5E1;
     font-weight: bold;
-    text-align: center ;
+    text-align: center;
 }
 
 #first-rate option {
@@ -85,7 +84,7 @@ body{
     color: #379683;
 }
 
-#form > p {
+#form>p {
     width: 5%;
     height: 40%;
     text-align: center;
@@ -101,7 +100,7 @@ body{
     border: none;
     outline: none;
     background-color: #379683;
-    color: #EDF5E1 ;
+    color: #EDF5E1;
     font-weight: bold;
     text-align: center;
 }
@@ -122,7 +121,7 @@ body{
     outline: none;
     border-radius: 5px;
     background-color: #379683;
-    color: #EDF5E1 ;
+    color: #EDF5E1;
     border: none;
     font-weight: bold;
     padding: 3px;
@@ -138,4 +137,16 @@ body{
     font-weight: bold;
     font-size: 12px;
     color: rgb(60, 60, 60);
+}
+@media only screen and (max-width: 600px) {
+
+    #input-value,
+    #first-rate,
+    #second-rate,
+    #conclusion,
+    #form,
+    #calculation-button {
+        max-width: 100%;
+    }
+
 }
